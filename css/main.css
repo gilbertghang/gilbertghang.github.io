@@ -16,14 +16,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.fluid-box {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
-}
-
 .jumbotron {
   margin-top: 30px;
 }
