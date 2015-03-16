@@ -1,13 +1,53 @@
+a:hover {
+	color: #FF5722;
+	text-decoration: none;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+body, 
+html, 
+.landing {
+	height: 100%;
+	width: 100%;
+}
+
 body {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fluid-box {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.jumbotron {
+  margin-top: 30px;
+}
+
+.landing {
+  display: block;
+	text-align: center;
+  position: relative;
+}
+
+.landing-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.main {
+	display: none;
 }
 
 nav {
 	font-size: 1.3em;
 }
 
-.jumbotron 
-h1,
-h3 {
-	text-align: center;
+.nav-show {
+  padding: 20px;
 }
