@@ -1,0 +1,13 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	font-size: 1.3em;
+}
+
+.jumbotron 
+h1,
+h3 {
+	text-align: center;
+}
