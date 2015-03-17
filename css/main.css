@@ -6,7 +6,8 @@ a:hover {
 
 body, 
 html, 
-.landing {
+.landing,
+.main {
 	height: 100%;
 	width: 100%;
 }
@@ -29,6 +30,14 @@ body {
   transition-duration: .3s;
 }
 
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
 .landing {
   display: block;
 	text-align: center;
@@ -36,9 +45,11 @@ body {
 }
 
 .landing-content {
-  position: relative;
+  left: 50%;
+  padding: 0;
+  position: absolute;
   top: 50%;
-  transform: translateY(-50%); 
+  transform: translate(-50%, -50%); 
 }
 
 .main {
@@ -47,8 +58,4 @@ body {
 
 nav {
 	font-size: 1.3em;
-}
-
-.nav-show {
-  padding: 20px;
 }
