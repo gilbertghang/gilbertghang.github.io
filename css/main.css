@@ -39,17 +39,14 @@ body {
 }
 
 .landing {
-  display: block;
-	text-align: center;
-  position: relative;
+  display: table;
+  vertical-align: middle;
 }
 
 .landing-content {
-  left: 50%;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%); 
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .main {
