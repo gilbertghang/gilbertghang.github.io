@@ -3,8 +3,7 @@ a {
 }
 
 a:hover {
-	/* color: #FF5722; orange */
-  color: navy;
+	color: #FF5722;
 	transition-duration: .3s;
 	transition-timing-function: ease-in-out;
   text-decoration: none;
@@ -46,8 +45,10 @@ body {
 }
 
 .container-fluid {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
   text-align: center;
-  width: 70%;
+  width: 85%;
 }
 
 #contact-me .btn {
@@ -73,14 +74,30 @@ header {
 }
 
 .landing {
+  background-image: url("/img/sunrise.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: table; /* default visibility: table*/
   vertical-align: middle;
 }
 
-.landing-content {
+.landing-container {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+.landing-content {
+  background-color: rgba(0,0,0,0.6);
+  border: 3px;
+  border-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  color: white;
+  display: inline-block;
+  padding: 5px 15px 15px 15px;
+  margin: 5px;
 }
 
 .main {
