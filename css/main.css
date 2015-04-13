@@ -13,44 +13,6 @@ a:hover {
   text-align: center;
 }
 
-img {
-  height: 20%;
-  width: 20%;
-}
-
-body, 
-html, 
-.landing,
-.main {
-	height: 100%;
-	width: 100%;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.btn-learn-more {
-  background-color: #607D8B;
-  border: 1px;
-  border-radius: 5px;
-  color: #F5F5F5;
-  margin-top: 10px; 
-  padding: 0.75em;
-}
-
-.btn-learn-more:hover {
-  background-color: #455A64;
-  transition-duration: .3s;
-}
-
-.container-fluid {
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-  text-align: center;
-  width: 85%;
-}
-
 #contact-me .btn {
   background-color: #607D8B;
   color: #F5F5F5;
@@ -61,43 +23,9 @@ body {
   transition-duration: .3s;
 }
 
-h1 {
-  margin-top: 10px;
-}
-
-header {
-  height: 20px;
-}
-
-.jumbotron {
-  text-align: center;
-}
-
-.landing {
-  background-image: url("/img/sunrise.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: table; /* default visibility: table*/
-  vertical-align: middle;
-}
-
-.landing-container {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.landing-content {
-  background-color: rgba(0,0,0,0.6);
-  border: 3px;
-  border-color: white;
-  border-radius: 5px;
-  border-style: solid;
-  color: white;
-  display: inline-block;
-  padding: 5px 15px 15px 15px;
-  margin: 5px;
+img {
+  height: 42%;
+  width: 42%;
 }
 
 .main {
