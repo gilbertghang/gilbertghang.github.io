@@ -22,5 +22,10 @@ h1 {
 }
 
 header {
-  height: 20px;
+  height: 2.5em;
+}
+
+section {
+  border-style: solid none none;
+  border-width: 1px;
 }
