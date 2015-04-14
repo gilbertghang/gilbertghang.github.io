@@ -1,3 +1,8 @@
+.main {
+  display: none;
+  opacity: 0;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -21,6 +26,19 @@ a:active {
   text-align: center;
 }
 
+.dog-ear {
+  text-align: left;
+  margin-left: 2em;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 1.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  text-align: center;
+}
+
 #contact-me .btn {
   background-color: #607D8B;
   color: #F5F5F5;
@@ -30,6 +48,10 @@ a:active {
 #contact-me .btn:hover {
   background-color: #455A64;
   transition-duration: .3s;
+}
+
+#intro h1 {
+  font-size: 3em;
 }
 
 .portrait {
@@ -63,8 +85,12 @@ a:active {
     margin: auto;
   }
   .blurb {
+    margin-top: 1em;
     text-align: center;
     width: 100%;
+  }
+  .dog-ear {
+    margin-left: 1em;
   }
 }
 
@@ -81,16 +107,25 @@ a:active {
     margin: auto;
   }
   .blurb {
+    margin-top: 1em; 
     text-align: center;
     width: 100%;
   }
+  .dog-ear {
+    margin-left: 1em;
+  }
 }
 
-.main {
-	display: none;
-  opacity: 0;
+#projects h2 {
+  margin-top: 10px;
 }
 
+#projects p {
+  font-size: 1.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  text-align: center;
+}
 
 nav {
 	font-size: 1.3em;
