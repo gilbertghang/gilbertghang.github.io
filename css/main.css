@@ -3,6 +3,11 @@
   opacity: 0;
 }
 
+.container-fluid {
+  margin-bottom: 0.5em;
+  width: 75%;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -24,7 +29,14 @@ a:active {
 
 .dog-ear {
   text-align: left;
-  margin-left: 1.5em;
+  margin-top: 0;
+}
+
+#about .dog-ear {
+  margin-bottom: 20px;
+}
+
+#projects .dog-ear {
   margin-bottom: 10px;
 }
 
@@ -32,10 +44,12 @@ a:active {
   text-align: center;
 }
 
-#about p {
+p {
+  font-family: 'Open-Sans', sans-serif;
   font-size: 1.5em;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-bottom: 0;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
   text-align: center;
 }
 
@@ -46,8 +60,8 @@ a:active {
 .portrait {
   display: inline-block;
   width: 300px;
-  margin-left: -20px;
-  margin-right: 20px;
+  margin-left: -10px;
+  margin-right: 10px;
 }
 
 .portrait-img {
@@ -67,17 +81,10 @@ a:active {
   margin-top: 0;
 }
 
-#projects p {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-  margin-right: 1.5em;
-  margin-left: 1.5em;
-  text-align: center;
-}
-
 #contact-me .btn {
   background-color: #607D8B;
   color: #F5F5F5;
+  margin-bottom: 10px;
   padding: 0.5em;
 }
 
@@ -87,31 +94,35 @@ a:active {
 }
 
 @media (max-width: 767px) {
+  .container-fluid {
+    width: 100%;
+  }
   .portrait {
     display: block;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 1em;
     width: 100%;
   }
+
   .portrait-img {
     margin: auto;
   }
+
   .blurb {
     margin-top: 1em;
     text-align: center;
     width: 100%;
   }
+
   .dog-ear {
     margin-left: 0;
+    margin-top: 0;
   }
-  #about p {
+
+  p {
     font-size: 1.5em;
-    margin-right: 5px;
-    margin-left: 5px;
-    text-align: center;
-  }
-  #projects p {
-    font-size: 1.5em;
+    margin-bottom: 0px;
     margin-right: 5px;
     margin-left: 5px;
     text-align: center;
@@ -119,17 +130,23 @@ a:active {
 }
 
 @media (max-device-width: 992px) {
+  .container-fluid {
+    width: 100%;
+  }
+
   .portrait {
     display: block;
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
   }
+
   .portrait-img {
     height: 75%;
     width: 75%;
     margin: auto;
   }
+
   .blurb {
     margin-top: 1em; 
     text-align: center;
@@ -139,32 +156,22 @@ a:active {
   .container-fluid {
     padding-left: 0;
     padding-right: 0;
-    width: 100%;
   }
+
   .dog-ear {
+    margin-top: 0;
     margin-left: 0;
   }
 
-  #about p {
+  #projects .dog-ear {
+    margin-bottom: 20px;
+  }
+
+  p {
     font-size: 1.5em;
+    margin-bottom: 0px;
     margin-right: 5px;
     margin-left: 5px;
     text-align: center;
   }
-  #projects p {
-    font-size: 1.5em;
-    margin-right: 5px;
-    margin-left: 5px;
-    text-align: center;
-  }
-}
-
-nav {
-	font-size: 1.3em;
-}
-
-.side-nav {
-  height: 20px;
-  background-image: url(http://material-design.storage.googleapis.com/images/hamburger.svg); 
-  background-repeat: no-repeat;
 }
