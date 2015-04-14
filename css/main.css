@@ -41,7 +41,7 @@ a:active {
 }
 
 .blurb {
-  transform: translateX(-25%);
+  text-align: left;
   transform: translateY(50%);
 }
 
@@ -50,7 +50,7 @@ a:active {
     transform: translateX(0%);
   }
   .blurb {
-    transform: translateX(0%);
+    text-align: center;
     transform: translateY(0%);
   }
 }
@@ -62,7 +62,6 @@ a:active {
     tranform:translateX(0%);
   }
   .blurb {
-    transform: translateX(0%);
     transform: translateY(0%);
   }
 }
