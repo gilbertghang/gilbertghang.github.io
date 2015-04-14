@@ -28,4 +28,5 @@ header {
 section {
   border-style: solid none none;
   border-width: 1px;
+  padding: 10px;
 }

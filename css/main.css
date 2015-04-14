@@ -32,27 +32,38 @@ a:active {
   transition-duration: .3s;
 }
 
-img {
+#intro img {
   height: 25%;
   width: 25%;
   min-height: 200px;
   min-width: 200px;
+  transform: translateX(10%);
 }
 
 .blurb {
-  margin-top: 25%;
+  transform: translateX(-25%);
+  transform: translateY(50%);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
+  #intro img {
+    transform: translateX(0%);
+  }
   .blurb {
-    margin-top: 0;
+    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
-@media (max-device-width:992px) {
-  img {
+@media (max-device-width: 992px) {
+  #intro img {
     height: 45%;
     width: 45%;
+    tranform:translateX(0%);
+  }
+  .blurb {
+    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
