@@ -22,14 +22,14 @@ a:active {
   text-decoration: none;
 }
 
-#about {
-  text-align: center;
-}
-
 .dog-ear {
   text-align: left;
   margin-left: 1.5em;
   margin-bottom: 10px;
+}
+
+#about {
+  text-align: center;
 }
 
 #about p {
@@ -37,17 +37,6 @@ a:active {
   margin-right: 2em;
   margin-left: 2em;
   text-align: center;
-}
-
-#contact-me .btn {
-  background-color: #607D8B;
-  color: #F5F5F5;
-  padding: 0.5em;
-}
-
-#contact-me .btn:hover {
-  background-color: #455A64;
-  transition-duration: .3s;
 }
 
 #intro h1 {
@@ -74,6 +63,28 @@ a:active {
   vertical-align: middle;
 }
 
+#projects h2 {
+  margin-top: 10px;
+}
+
+#projects p {
+  font-size: 1.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  text-align: center;
+}
+
+#contact-me .btn {
+  background-color: #607D8B;
+  color: #F5F5F5;
+  padding: 0.5em;
+}
+
+#contact-me .btn:hover {
+  background-color: #455A64;
+  transition-duration: .3s;
+}
+
 @media (max-width: 767px) {
   .portrait {
     display: block;
@@ -90,7 +101,7 @@ a:active {
     width: 100%;
   }
   .dog-ear {
-    margin-left: 1em;
+    margin-left: 0.5em;
   }
 }
 
@@ -112,20 +123,23 @@ a:active {
     width: 100%;
   }
   .dog-ear {
-    margin-left: 1em;
+    margin-left: 0.5em;
+  }
+
+  #about p {
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  #projects p {
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
   }
 }
 
-#projects h2 {
-  margin-top: 10px;
-}
-
-#projects p {
-  font-size: 1.5em;
-  margin-right: 2em;
-  margin-left: 2em;
-  text-align: center;
-}
 
 nav {
 	font-size: 1.3em;
