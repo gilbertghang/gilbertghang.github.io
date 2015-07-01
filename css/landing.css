@@ -3,6 +3,7 @@
   border: 1px;
   border-radius: 5px;
   color: #F5F5F5;
+  font-size: 1.25em;
   margin-top: 5px; 
   outline: none;
   padding: 0.5em;
@@ -16,7 +17,7 @@
 .landing {
   height: 100%;
   width: 100%;
-  background-image: url("/img/sunrise.jpg");
+  background-image: url("/img/landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

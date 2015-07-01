@@ -27,6 +27,6 @@ header {
 
 section {
   border-style: solid;
-  border-width: 1px 0px 0px;
+  border-width: 0.1em 0em 0em;
   padding: 1.5em;
 }
