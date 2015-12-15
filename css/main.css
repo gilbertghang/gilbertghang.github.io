@@ -1,6 +1,5 @@
 .main {
-  display: none;
-  opacity: 0;
+  display: block;
 }
 
 .container-fluid {
@@ -153,7 +152,7 @@ p {
   }
 
   .blurb {
-    margin-top: 1em; 
+    margin-top: 1em;
     text-align: center;
     width: 100%;
   }
