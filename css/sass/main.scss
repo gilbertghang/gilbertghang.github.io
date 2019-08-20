@@ -1,0 +1,11 @@
+@import './_normalize.scss';
+@import './_variables.scss';
+
+body {
+    font-family: $font-oswald;
+    margin: 12px;
+}
+
+p {
+    font-family: $font-open-sans;
+}
